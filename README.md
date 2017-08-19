@@ -34,3 +34,21 @@ Datasets:
 Others:
 
 [[NLP Job](http://www.nlpjob.com)]
+
+
+
+--------
+root@9b1bc77570ec:/home/DrQA# python prepro.py
+08/19/2017 02:36:52 start data preparing...
+08/19/2017 02:37:29 glove loaded.
+08/19/2017 02:37:31 json data flattened.
+08/19/2017 02:38:10 got intial tokens.
+08/19/2017 02:38:23 drop 1320 inconsistent samples.
+08/19/2017 02:38:23 answer pointer generated.
+08/19/2017 02:42:45 tokens generated
+08/19/2017 02:42:48 vocab coverage 91058/111467 | OOV occurrence 128308/14696898 (0.8730%)
+08/19/2017 02:43:17 Found 56 POS tags.
+08/19/2017 02:43:17 Found 19 entity tags: ['', 'ORG', 'DATE', 'PERSON', 'GPE', 'CARDINAL', 'NORP', 'LOC', 'WORK_OF_ART', 'PERCENT', 'EVENT', 'ORDINAL', 'MONEY', 'FAC', 'QUANTITY', 'LAW', 'TIME', 'LANGUAGE', 'PRODUCT']
+08/19/2017 02:43:18 vocab built.
+08/19/2017 02:44:02 got embedding matrix.
+08/19/2017 02:44:11 saved to disk.
